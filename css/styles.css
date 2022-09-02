@@ -107,7 +107,6 @@ body {
   line-height: 1.365;
   letter-spacing: 0.06em;
   width: 696px;
-  height: 120px;
   margin: 0;
 }
 .top-section {
@@ -137,7 +136,6 @@ body {
   border-radius: 4px;
   cursor: pointer;
   width: 200px;
-  height: 50px;
 }
 .lorem-list {
   display: flex;
