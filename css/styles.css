@@ -376,3 +376,13 @@ body {
 .grey-contact {
   color: #757575;
 }
+.icon {
+  cursor: pointer;
+}
+.contacts-icon {
+  fill: #757575;
+  background-color: #fff;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
