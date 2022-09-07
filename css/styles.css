@@ -395,6 +395,30 @@ body {
     justify-content: center;
     align-items: center;
 }
+.icons-client-box {
+    display: flex;
+    gap: 30px;
+}
+.icons-client-box > :nth-child(n) {
+    fill: #afb1b8;
+    width: 170px;
+    height: 92px;
+    box-sizing: border-box;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.icons-client-box > :nth-child(n) :hover,
+.icons-client-box > :nth-child(n) :focus {
+    fill: #2196f3;
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .icons-contact {
     fill: #757575;
 }
@@ -415,10 +439,29 @@ body {
 .not-dot {
     list-style: none;
 }
+
 .icon-social {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+.icon-social > :nth-child(n) {
+    border: solid 0px;
+    radius: 50%;
+    border-radius: 50%;
+    height: 40px;
+    width: 44px;
+    background-color: none;
+    fill: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-social :hover,
+.icon-social :focus {
+    background-color: #2196f3;
+    fill: #ffffff;
+    cursor: pointer;
 }
 .icon-social-footer > :nth-child(n) {
     fill: #ffffff;
