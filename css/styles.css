@@ -114,10 +114,14 @@ body {
             rgba(47, 48, 58, 0.4) 100%
         ),
         url("../images/background-image.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     max-width: 1600px;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-section-text {
