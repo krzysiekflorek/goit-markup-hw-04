@@ -127,7 +127,7 @@ body {
 }
 .top-section {
     background-color: #2f303a;
-    margin: 0 auto;
+    margin: auto auto;
 }
 .top-section-flex {
     display: flex;
