@@ -118,7 +118,6 @@ body {
     background-position: center;
     max-width: 1600px;
     height: 600px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
