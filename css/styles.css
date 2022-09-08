@@ -127,7 +127,7 @@ body {
 }
 .top-section {
     background-color: #2f303a;
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
 }
 .top-section-flex {
@@ -377,7 +377,7 @@ body {
 /* all */
 
 .container {
-    width: 1600px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
