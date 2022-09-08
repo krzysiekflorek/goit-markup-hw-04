@@ -485,3 +485,8 @@ body {
     fill: #ffffff;
     background-color: #ffffff1a;
 }
+.join-us {
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
