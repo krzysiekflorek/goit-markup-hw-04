@@ -107,7 +107,6 @@ body {
 .background-image {
     margin: 0 auto;
     background-size: cover;
-    background-image: cover;
     background-position: center;
     background-image: linear-gradient(
             0deg,
@@ -438,6 +437,8 @@ body {
 }
 .icons-contact {
     fill: #757575;
+    margin-top: 44px;
+    margin-left: 1052px;
 }
 .icon-flex-wrap {
     display: flex;
