@@ -104,10 +104,10 @@ body {
 
 /* top-section */
 
-/* {
+* {
     background-image: url("../images/background-image.jpg");
 }
-.background-image {
+/*.background-image {
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
