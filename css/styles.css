@@ -118,6 +118,9 @@ body {
     );
     background-image: url("../images/background-image.jpg");
 }
+* {
+    background-image: url("../images/background-image.jpg");
+}
 
 .top-section-text {
     color: #fff;
