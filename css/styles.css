@@ -105,16 +105,16 @@ body {
 /* top-section */
 
 .background-image {
-    margin: auto;
-    background-size: 1600px auto;
+    margin: 0 auto;
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-image: linear-gradient(
             0deg,
             rgba(47, 48, 58, 0.4) 0%,
             rgba(47, 48, 58, 0.4) 100%
         ),
         url("../images/background-image.jpg");
-    background-repeat: no-repeat;
 }
 
 .top-section-text {
