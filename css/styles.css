@@ -424,7 +424,7 @@ body {
     display: flex;
     gap: 30px;
 }
-.icons-client-box > :nth-child(n) {
+.client-box {
     fill: #afb1b8;
     width: 170px;
     height: 92px;
@@ -435,8 +435,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
+    transition-property: var(#2196f3);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.icon-client {
+    width: 170px;
+    height: 92px;
+    fill: #afb1b8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client-box:hover,
+.client-box:focus {
+    border-color: #2196f3;
+}
+
 .icons-client-box > :nth-child(n) :hover,
 .icons-client-box > :nth-child(n) :focus {
     fill: #2196f3;
