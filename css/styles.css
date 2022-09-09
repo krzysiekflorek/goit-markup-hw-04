@@ -514,7 +514,7 @@ footer-social {
     display: flex;
     gap: 50px;
     margin: 0;
-    padding: 0 0 0 380px;
+    padding: 0 0 0 280px;
 }
 .footer-flex > :last-child {
     padding-bottom: 100px;
