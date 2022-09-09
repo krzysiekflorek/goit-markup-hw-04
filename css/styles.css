@@ -489,17 +489,6 @@ body {
     width: 20px;
     height: 20px;
 }
-.footer-social {
-    width: 206px;
-    height: 80px;
-    padding-top: 12px;
-    padding-bottom: 80px;
-}
-.footer-social > .social-links {
-    margin: 0;
-    width: 206px;
-    height: 40px;
-}
 .page-bottom.social-links-item {
     background-color: rgba(255, 255, 255, 0.1);
 }
@@ -516,4 +505,10 @@ body {
     margin-bottom: 20px;
     color: #fff;
     text-transform: uppercase;
+}
+footer-social {
+    width: 206px;
+    height: 80px;
+    padding-left: 532;
+    padding-bottom: 100px;
 }
