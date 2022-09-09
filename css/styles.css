@@ -513,7 +513,7 @@ footer-social {
 .footer-flex {
     display: flex;
     gap: 100px;
-    padding-left: 532px;
+    padding-right: 1037px;
     padding-bottom: 100px;
 }
 .footer-flex > :last-child {
