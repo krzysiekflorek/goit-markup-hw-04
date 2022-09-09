@@ -16,6 +16,10 @@ body {
 .blue-text:focus {
     color: #2196f3;
 }
+.contacts-icon:hover,
+.contacts-icon:focus {
+    color: #2196f3;
+}
 .blue-text {
     color: #2196f3;
 }
