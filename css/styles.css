@@ -8,7 +8,7 @@ body {
     width: 1600px;
     margin: 0 auto;
 }
-a:hover a:focus {
+a:hover {
     cursor: pointner;
     color: #2196f3;
 }
@@ -397,6 +397,17 @@ a:hover a:focus {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+
+.mail:hover,
+.mail:focus {
+    cursor: pointer;
+    color: #2196f3;
+}
+.tel:hover,
+.tel:focus {
+    cursor: pointer;
+    color: #2196f3;
 }
 .w-text {
     color: #fff;
