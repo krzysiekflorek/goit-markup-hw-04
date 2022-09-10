@@ -398,14 +398,6 @@ a:hover {
     padding-right: 15px;
     margin: 0 auto;
 }
-.mail:hover {
-    cursor: pointer;
-    color: #2196f3;
-}
-.tel:hover {
-    cursor: pointer;
-    color: #2196f3;
-}
 .w-text {
     color: #fff;
 }
