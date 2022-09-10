@@ -8,6 +8,10 @@ body {
     width: 1600px;
     margin: 0 auto;
 }
+a:hover a:focus {
+    cursor: pointner;
+    color: #2196f3;
+}
 * {
     margin: 0;
     padding: 0;
