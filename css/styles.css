@@ -471,9 +471,6 @@ a:hover {
     border-radius: 4px;
     cursor: pointer;
 }
-.icons-contact {
-    fill: #757575;
-}
 .icon-flex-wrap {
     display: flex;
     flex-direction: row;
