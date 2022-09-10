@@ -534,7 +534,7 @@ a:hover {
     cursor: pointer;
     color: #2196f3;
 }
-.hover-icons: hover;
+.hover-icons:hover,
 .hover-icons:focus {
     fill: #2196f3;
 }
