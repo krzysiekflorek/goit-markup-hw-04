@@ -401,8 +401,9 @@ a:hover {
 .w-text {
     color: #fff;
 }
-.icon {
+.contact-link-style:hover .icon {
     cursor: pointer;
+    color: #2196f3;
 }
 .contacts-icon {
     background-color: #fff;
