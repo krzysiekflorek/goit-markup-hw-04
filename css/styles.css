@@ -434,10 +434,10 @@ footer > div {
 .footer-address-mail:focus {
     color: #2196f3;
 }
-.footer-address-tel:hover .footer-address-tel:focus {
+.footer-address-tel:hover,
+.footer-address-tel:focus {
     color: #2196f3;
 }
-
 .address {
     font-style: normal;
 }
@@ -608,6 +608,12 @@ footer > div {
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 20px;
+}
+.footer-social-links {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+    list-style: none;
 }
 .footer-social-links li {
     width: 44px;
