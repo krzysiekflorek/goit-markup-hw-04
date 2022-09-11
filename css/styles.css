@@ -207,10 +207,6 @@ a:hover {
     justify-content: space-between;
     margin: 0;
 }
-.our-team {
-    align-items: center;
-    margin: 0 215px;
-}
 .john-box > figure {
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -242,14 +238,48 @@ a:hover {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
-.section-bottom {
-    background-color: #f5f4fa;
-    font-size: 16px;
-    line-height: 1.186;
-    padding: 94px 0;
-    margin: 0;
+.section-bottom h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
+.section-bottom ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    object-fit: contain;
+}
+.section-bottom figure {
+    background: #fff;
+    box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
+        0px 2px 1px #00000033;
+    border-radius: 0px 0px 4px 4p;
+    display: flex;
+    flex-direction: column;
+}
+.section-bottom figcaption {
+    padding: 30px 32px;
+}
+.section-bottom h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+.section-bottom p {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 .studio-section h2 {
     font-weight: 700;
     font-size: 36px;
@@ -535,7 +565,6 @@ footer > div {
 }
 .background-section {
     background: #f5f4fa;
-    min-width: 100%;
 }
 .links {
     text-decoration: none;
@@ -584,6 +613,22 @@ footer > div {
     margin-bottom: 20px;
     color: #fff;
     text-transform: uppercase;
+}
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    grid-gap: 10px;
+}
+.social-links a {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #afb1b8;
+}
+.social-links a:hover,
+.social-links a:focus {
+    fill: #fff;
 }
 .list-title {
     margin-bottom: 20px;
