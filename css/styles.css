@@ -396,9 +396,9 @@ footer > div {
     margin-bottom: 20px;
     letter-spacing: 0.03em;
 }
-.footer-logo > span {
+/*.footer-logo > span {
     color: #2196f3;
-}
+}*/
 .footer-address {
     display: block;
 }
