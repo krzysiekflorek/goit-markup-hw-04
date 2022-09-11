@@ -84,6 +84,11 @@ a:hover {
 .header-list-item-link:focus {
     color: #2196f3;
 }
+.header-icon {
+    fill: #2196f3;
+    margin-right: 10px;
+}
+
 .header-list-item-link {
     text-decoration: none;
     display: flex;
@@ -104,10 +109,20 @@ a:hover {
     color: #2196f3;
 }
 .contact-link-style {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     color: #757575;
     list-style: none;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+.contact-link-style:hover .header-icon,
+.contact-link-style:focus .header-icon {
+    fill: #2196f3;
 }
 
 /* top-section */
@@ -533,8 +548,4 @@ a:hover {
 .contact-link-style:hover .icon {
     cursor: pointer;
     color: #2196f3;
-}
-.hover-icons:hover,
-.hover-icons:focus {
-    fill: #2196f3;
 }
