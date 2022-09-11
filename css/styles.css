@@ -239,8 +239,11 @@ a:hover {
     padding: 30px 0;
 }
 .section {
-    padding: 94px 0;
-    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.studio-section {
+    padding-bottom: 0;
 }
 .section-bottom {
     background-color: #f5f4fa;
@@ -249,15 +252,47 @@ a:hover {
     padding: 94px 0;
     margin: 0;
 }
-.service-header {
-    color: #212121;
+.studio-section h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.167;
-    padding: 0 0 50px;
     text-align: center;
-    margin: 0 auto;
+    letter-spacing: 00.03em;
+    margin-bottom: 50px;
 }
+
+.studio-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.studio-section a {
+    display: block;
+    border: 1px solid #ffffff99;
+    border-radius: 4px;
+    padding: 17.71px 32px 14.25px;
+}
+
+.studio-section li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.studio-icon {
+    fill: #afb1b8;
+}
+
+.studio-section a:hover,
+.studio-section a:focus {
+    border-color: #2196f3;
+}
+
+.studio-section a:hover .studio-icon,
+.studio-section a:focus .studio-icon {
+    fill: #2196f3;
+}
+
 .text {
     color: #212121;
 }
@@ -383,7 +418,7 @@ a:hover {
 /* all */
 
 .header-container {
-    width: 1600px;
+    width: 1200px;
     padding-left: 185px;
     padding-right: 15px;
     margin: 0 auto;
