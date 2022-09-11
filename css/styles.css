@@ -577,5 +577,4 @@ a:hover {
 .contact-link-style:hover .header-icon,
 .contact-link-style:focus .header-icon {
     fill: #2196f3;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
