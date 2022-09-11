@@ -108,22 +108,6 @@ a:hover {
 .links:focus {
     color: #2196f3;
 }
-.contact-link-style {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    color: #757575;
-    list-style: none;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-}
-.contact-link-style:hover .header-icon,
-.contact-link-style:focus .header-icon {
-    fill: #2196f3;
-}
 
 /* top-section */
 
@@ -371,7 +355,6 @@ a:hover {
     padding-bottom: 20px;
     padding-top: 60px;
 }
-
 .footer-style {
     display: flex;
     flex-direction: column;
@@ -548,4 +531,20 @@ a:hover {
 .contact-link-style:hover .icon {
     cursor: pointer;
     color: #2196f3;
+}
+.contact-link-style {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+    list-style: none;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+.contact-link-style:hover .header-icon,
+.contact-link-style:focus .header-icon {
+    fill: #2196f3;
 }
