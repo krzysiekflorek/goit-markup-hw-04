@@ -123,8 +123,7 @@ a:hover {
     background-size: 1600px;
     padding: 200px 452px 200px 452px;
     background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%);
-    url("../images/background-image.jpg");
-    background-repeat: no-reapeat;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .background-image {
@@ -176,9 +175,9 @@ a:hover {
 .top-section button.links:hover,
 .top-section button:focus {
     background-color: #f5f4fa;
-    box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314, 0px 2px 2px #2196f31f;
+    box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314,
+        0px 2px 2px #2196f31f;
     color: #fff;
-
 }
 
 .lorem-list {
