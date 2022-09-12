@@ -219,6 +219,7 @@ a:hover {
     text-align: center;
     letter-spacing: 0.03em;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .section-activity ul {
     display: flex;
