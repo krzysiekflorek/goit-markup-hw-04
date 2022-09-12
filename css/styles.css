@@ -477,7 +477,7 @@ footer > div {
 .footer-address-mail {
     display: block;
     text-decoration: none;
-    color: #757575;
+    color: #fff;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -487,7 +487,7 @@ footer > div {
 .footer-address-tel {
     display: block;
     text-decoration: none;
-    color: #757575;
+    color: #fff;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
