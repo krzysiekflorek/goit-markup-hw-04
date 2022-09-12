@@ -319,7 +319,7 @@ a:hover {
     font-size: 36px;
     line-height: 1.167;
     text-align: center;
-    letter-spacing: 00.03em;
+    letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
 
@@ -329,22 +329,21 @@ a:hover {
     align-items: center;
     list-style: none;
 }
-
+.studio section {
+    border-color: #757575;
+}
 .studio-section a {
     display: block;
-    border: 1px solid #ffffff99;
+    border: 2px solid #757575;
     border-radius: 4px;
     padding: 17.71px 32px 14.25px;
 }
-
 .studio-section li:not(:last-child) {
     margin-right: 30px;
 }
-
 .studio-icon {
     fill: #afb1b8;
 }
-
 .studio-section a:hover,
 .studio-section a:focus {
     border-color: #2196f3;
