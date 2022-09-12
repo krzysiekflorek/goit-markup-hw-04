@@ -109,6 +109,24 @@ a:hover {
 
 /* top-section */
 
+.top-section-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 106px 0;
+}
+.top-section {
+    background-color: #2f303a;
+    background-size: 1600px;
+    padding: 200px 452px 200px 452px;
+    background-image: linear-gradient(to bottom, #2f303a66 0%, #2f303a66 100%);
+    url("../images/background-image.jpg");
+    background-repeat: no-reapeat;
+    background-position: center;
+}
 .background-image {
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -129,29 +147,23 @@ a:hover {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.365;
-    letter-spacing: 0.06em;
-    margin: 0;
-}
-.top-section {
-    background-color: #2f303a;
-    max-width: 1600px;
-    height: 600px;
-}
-.top-section-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    gap: 30px;
-    padding: 106px 0;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
-.top-section-button {
+.text {
+    color: #212121;
+}
+.top-section button {
+    font-family: "Roboto";
     letter-spacing: 0.06em;
     color: #fff;
+    box-shadow: 0px 4 px 4px rgba(0, 0, 0, 0.15);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
+    display: flex;
     text-align: center;
     background-color: #2196f3;
     border: none;
@@ -159,8 +171,16 @@ a:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-    margin: auto;
+    margin: 0 auto;
 }
+.top-section button.links:hover,
+.top-section button:focus {
+    background-color: #f5f4fa;
+    box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314, 0px 2px 2px #2196f31f;
+    color: #fff;
+
+}
+
 .lorem-list {
     display: flex;
     flex-direction: row;
@@ -356,10 +376,6 @@ a:hover {
 .studio-section a:hover .studio-icon,
 .studio-section a:focus .studio-icon {
     fill: #2196f3;
-}
-
-.text {
-    color: #212121;
 }
 .top-section-list {
     list-style: none;
