@@ -395,15 +395,23 @@ a:hover {
 
 /* section portfolio */
 
-.buttons-portfolio {
+.button-style {
+    font-family: "Roboto";
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
     color: #212121;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.625;
-    border-radius: 4px;
-    padding: 6px 22px;
+    padding: 6px 22px 6px 22px;
     cursor: pointer;
-    border-style: none;
+    letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
 }
 .blue-background:hover,
 .blue-background:focus {
@@ -412,10 +420,12 @@ a:hover {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.buttons-portfolio:hover,
-.buttons-portfolio:focus {
-    color: #2196f3;
-    cursor: pointer;
+.button-style:hover,
+.button-style:focus {
+    background-color: #2196f3;
+    box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
+    0px 2px 2px #0000001f;
+    color: #fff;
 }
 .categories {
     font-size: 16px;
