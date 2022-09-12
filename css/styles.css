@@ -343,6 +343,7 @@ a:hover {
 }
 .studio-icon {
     fill: #afb1b8;
+    border-color: #757575;
 }
 .studio-section a:hover,
 .studio-section a:focus {
