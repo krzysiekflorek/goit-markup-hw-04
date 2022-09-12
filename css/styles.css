@@ -669,6 +669,7 @@ footer > div {
 .social-links a:hover,
 .social-links a:focus {
     fill: #fff;
+    background-color: #2196f3;
 }
 .list-title {
     margin-bottom: 20px;
