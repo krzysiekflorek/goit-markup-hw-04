@@ -124,8 +124,8 @@ a:hover {
 .contact-link-style:focus {
     color: #2196f3"
 }
-.contact-link-style:hover .contacts-icon,
-.contact-link-style:focus .contacts-icon {
+.contact-link-style:hover .contacts-icon:hover,
+.contact-link-style:focus .contacts-icon:hover {
     fill: #2196f3;
 }
 
