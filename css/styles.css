@@ -119,13 +119,14 @@ a:hover {
     line-height: 1.15;
     letter-spacing: 0.02em;
 }
-.contact-link-style:hover .contacts-icon,
-.contact-link-style:focus .contacts-icon {
-    fill: #2196f3;
-}
+
 .contact-link-style:hover
 .contact-link-style:focus {
     color: #2196f3"
+}
+.contact-link-style:hover .contacts-icon,
+.contact-link-style:focus .contacts-icon {
+    fill: #2196f3;
 }
 
 /* top-section */
