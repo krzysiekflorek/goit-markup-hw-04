@@ -692,7 +692,8 @@ footer > div {
     width: 20px;
     height: 20px;
 }
-.page-bottom.social-links-item {
+.page-bottom,
+.social-links-item {
     background-color: rgba(255, 255, 255, 0.1);
 }
 .social-links-item:hover,
