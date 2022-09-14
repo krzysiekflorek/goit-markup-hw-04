@@ -120,8 +120,8 @@ a:hover {
     line-height: 1.15;
     letter-spacing: 0.02em;
 }
-.contact-link-style:hover .contacts-icon:hover,
-.contact-link-style:focus .contacts-icon:hover {
+.contact-link-style .contacts-icon:hover,
+.contact-link-style .contacts-icon:hover {
     fill: #2196f3;
 }
 
