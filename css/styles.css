@@ -40,6 +40,7 @@ a:hover {
     gap: 93px;
     margin: 0;
     padding: 0;
+    width: 1200px;
     text-align: center;
 }
 .header-logo {
@@ -75,6 +76,7 @@ a:hover {
     list-style: none;
 }
 .border-header {
+    width: 1200px;
     border-bottom: 1px solid #f5f4fa;
 }
 .header-list-item-link:hover,
