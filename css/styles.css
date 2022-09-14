@@ -83,6 +83,10 @@ a:hover {
     color: #2196f3;
     cursor: pointer;
 }
+.top-section-list:hover,
+.top-section-list:focus {
+    cursor: pointer;
+}
 .contacts-icon {
     fill: #757575;
     margin-right: 10px;
