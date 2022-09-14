@@ -754,7 +754,7 @@ footer > div {
 .f-position {
     position: absolute;
     left: 50%;
-    right: 50%;
-    top: 0%;
+    right: 80%;
+    top: 20%;
     bottom: 0%;
 }
