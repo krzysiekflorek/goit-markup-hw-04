@@ -747,3 +747,10 @@ footer > div {
 .footer-social-links li:focus {
     background-color: #2196f3;
 }
+.f-position {
+    position: absolute;
+    left: 70%;
+    right: 24%;
+    top: 0%;
+    bottom: 0%;
+}
