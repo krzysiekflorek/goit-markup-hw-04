@@ -320,7 +320,6 @@ a:hover {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 30px;
     object-fit: contain;
 }
 .section-bottom figure {
@@ -349,7 +348,6 @@ a:hover {
     letter-spacing: 0.03em;
     color: #757575;
 }
-
 .studio-section h2 {
     font-weight: 700;
     font-size: 36px;
@@ -359,7 +357,6 @@ a:hover {
     margin-bottom: 50px;
     color: #212121;
 }
-
 .studio-section ul {
     display: flex;
     justify-content: space-between;
@@ -422,14 +419,6 @@ a:hover {
     gap: 8px;
     margin-bottom: 50px;
 }
-.button-style:hover,
-.button-style:focus {
-    background-color:  #fff;
-    box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
-    0px 2px 2px #0000001f;
-    color: #2196f3;
-    cursor: pointer;
-}
 .categories {
     font-size: 16px;
     line-height: 1.875;
@@ -449,7 +438,6 @@ a:hover {
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding: 0 518px 50px 510px;
     margin: 0;
 }
 .projects {
