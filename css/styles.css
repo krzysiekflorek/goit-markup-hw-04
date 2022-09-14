@@ -120,11 +120,6 @@ a:hover {
     line-height: 1.15;
     letter-spacing: 0.02em;
 }
-
-.contact-link-style:hover
-.contact-link-style:focus {
-    color: #2196f3"
-}
 .contact-link-style:hover .contacts-icon:hover,
 .contact-link-style:focus .contacts-icon:hover {
     fill: #2196f3;
@@ -194,7 +189,6 @@ a:hover {
         0px 2px 2px #2196f31f;
     color: #212121;
 }
-
 .lorem-list {
     display: flex;
     flex-direction: row;
@@ -397,8 +391,7 @@ a:hover {
 
 /* section portfolio */
 
-.buttons-portfolio
-{
+.buttons-portfolio {
     font-family: "Roboto";
     background-color: #f5f4fa;
     border-radius: 4px;
