@@ -121,7 +121,7 @@ a:hover {
     letter-spacing: 0.02em;
 }
 .contacts-icon .contact-link-style:hover,
-.contacts-icon .contact-link-style:hover {
+.contacts-icon .contact-link-style:focus {
     fill: #2196f3;
 }
 
