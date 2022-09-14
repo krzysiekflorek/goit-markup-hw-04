@@ -207,6 +207,7 @@ a:hover {
     font-weight: 700;
     line-height: 1.143;
     margin: 0;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 .text-header {
