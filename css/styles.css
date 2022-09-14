@@ -254,6 +254,7 @@ a:hover {
     letter-spacing: 0.03em;
     margin-top: 0;
     margin-bottom: 50px;
+    color: #212121;
 }
 
 .section-activity ul {
@@ -315,6 +316,7 @@ a:hover {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+    color: #212121;
 }
 .section-bottom ul {
     display: flex;
