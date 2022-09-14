@@ -81,6 +81,7 @@ a:hover {
 .header-list-item-link:hover,
 .header-list-item-link:focus {
     color: #2196f3;
+    cursor: pointer;
 }
 .contacts-icon {
     fill: #757575;
@@ -107,6 +108,7 @@ a:hover {
 .links:hover,
 .links:focus {
     color: #2196f3;
+    cursor: pointer;
 }
 .contact-link-style {
     display: flex;
@@ -188,6 +190,7 @@ a:hover {
     box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314,
         0px 2px 2px #2196f31f;
     color: #212121;
+    cursor: pointer;
 }
 .lorem-list {
     display: flex;
@@ -379,6 +382,7 @@ a:hover {
 .studio-section a:hover,
 .studio-section a:focus {
     border-color: #2196f3;
+    cursor: pointer;
 }
 
 .studio-section a:hover .studio-icon,
@@ -679,6 +683,7 @@ footer > div {
 .social-links-item:hover,
 .social-links-item:focus {
     background-color: #2196f3;
+    cursor: pointer;
 }
 .social {
     margin-bottom: 20px;
