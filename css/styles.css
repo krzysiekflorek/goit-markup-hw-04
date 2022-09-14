@@ -520,6 +520,7 @@ footer > div {
 }
 .footer-address {
     display: block;
+    font-style: normal;
 }
 .footer-address > span {
     display: block;
