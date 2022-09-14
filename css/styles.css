@@ -207,7 +207,7 @@ a:hover {
     font-weight: 700;
     line-height: 1.143;
     margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
 }
 .text-header {
     color: #212121;
