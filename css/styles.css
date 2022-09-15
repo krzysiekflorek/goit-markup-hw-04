@@ -561,6 +561,7 @@ footer > div {
 /* all */
 
 .container {
+    display: flex;
     width: 1200px;
     padding-left: 10px;
     padding-right: 10px;
