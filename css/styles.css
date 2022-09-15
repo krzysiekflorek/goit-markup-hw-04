@@ -754,6 +754,6 @@ footer > div {
 }
 .f-position {
     position: relative;
-    margin-right: 30px;
-    margin-top: 3px;
+    right: 30px;
+    top: 3px;
 }
