@@ -562,6 +562,7 @@ footer > div {
 
 .container {
     width: 1200px;
+    gap: 93px;
     padding-left: 0px;
     padding-right: 0px;
     margin: 0 auto;
