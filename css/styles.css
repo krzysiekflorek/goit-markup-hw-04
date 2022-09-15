@@ -47,6 +47,14 @@ a:hover {
     list-style: none;
     text-decoration: none;
 }
+.menu-text-container {
+    display: flex;
+    gap: 93;
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    text-align: center;
+}
 .black-text {
     color: #000000;
 }
@@ -562,9 +570,8 @@ footer > div {
 
 .container {
     width: 1200px;
-    gap: 93px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 .w-text {
