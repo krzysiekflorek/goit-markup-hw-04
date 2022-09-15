@@ -80,7 +80,6 @@ a:hover {
 .header-list-item-link:hover,
 .header-list-item-link:focus {
     color: #2196f3;
-    cursor: pointer;
 }
 .top-section-list:hover,
 .top-section-list:focus {
@@ -111,7 +110,6 @@ a:hover {
 .links:hover,
 .links:focus {
     color: #2196f3;
-    cursor: pointer;
 }
 .contact-link-style {
     display: flex;
@@ -193,7 +191,6 @@ a:hover {
     box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314,
         0px 2px 2px #2196f31f;
     color: #212121;
-    cursor: pointer;
 }
 .lorem-list {
     display: flex;
@@ -461,7 +458,6 @@ a:hover {
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
     color: #fff;
-    cursor: pointer;
     background-color: #2196f3;
     box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
         0px 2px 2px #0000001f;
@@ -587,7 +583,6 @@ footer > div {
     width: 16px;
     height: 16px;
 }
-
 .icons-box {
     width: 270px;
     height: 120px;
@@ -635,7 +630,6 @@ footer > div {
     fill: #2196f3;
     border: 1px solid #2196f3;
     border-radius: 4px;
-    cursor: pointer;
 }
 .icon-flex-wrap {
     display: flex;
@@ -689,7 +683,6 @@ footer > div {
 .social-links-item:hover,
 .social-links-item:focus {
     background-color: #2196f3;
-    cursor: pointer;
 }
 .social {
     margin-bottom: 20px;
