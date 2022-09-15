@@ -34,14 +34,6 @@ a:hover {
     margin: 0;
     padding: 32px 0;
 }
-.menu-flex-container {
-    display: flex;
-    gap: 93px;
-    margin: 0;
-    padding: 0;
-    width: 1200px;
-    text-align: center;
-}
 .header-logo {
     font-family: "Raleway";
     font-weight: 700;
