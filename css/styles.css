@@ -250,6 +250,10 @@ a:hover {
     text-align: center;
     margin: 0;
 }
+.section-activity {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-activity h2 {
     font-weight: 700;
     font-size: 36px;
@@ -260,7 +264,6 @@ a:hover {
     margin-bottom: 60px;
     color: #212121;
 }
-
 .section-activity ul {
     display: flex;
     justify-content: space-between;
