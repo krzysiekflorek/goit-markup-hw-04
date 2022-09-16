@@ -53,12 +53,9 @@ a:hover {
     list-style: none;
     text-decoration: none;
 }
-.menu-flex-container {
+.header-container {
     display: flex;
     gap: 93;
-    margin: 0;
-    padding: 0;
-    width: 1200px;
     text-align: center;
 }
 .black-text {
