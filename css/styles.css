@@ -40,12 +40,14 @@ a:hover {
 }
 .header-logo {
     font-family: "Raleway";
+    display: block;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.174;
     color: #000;
     text-decoration: none;
     padding: 24px 0 25px;
+    margin-bottom: 20px;
 }
 .header-list {
     list-style: none;
