@@ -311,7 +311,12 @@ a:hover {
 }
 /*.section {
     padding-bottom: 47px;
-    padding-top: 47px;*/
+    padding-top: 47px;
+}
+*/
+.section-bottom {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .section-bottom h2 {
     font-weight: 700;
@@ -320,8 +325,6 @@ a:hover {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-    padding-top: 94px;
-    padding-bottom: 94px;
     color: #212121;
 }
 .section-bottom ul {
