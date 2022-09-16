@@ -359,6 +359,10 @@ a:hover {
     letter-spacing: 0.03em;
     color: #757575;
 }
+.studio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .studio-section h2 {
     font-weight: 700;
     font-size: 36px;
