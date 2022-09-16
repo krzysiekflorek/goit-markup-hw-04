@@ -209,6 +209,7 @@ a:hover {
     line-height: 1.143;
     margin: 0;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 .text-header {
     color: #212121;
