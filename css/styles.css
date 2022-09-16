@@ -312,11 +312,10 @@ a:hover {
     flex-direction: column;
     padding: 30px 0;
 }
-/*.section {
+.section {
     padding-bottom: 47px;
     padding-top: 47px;
 }
-*/
 .section-bottom {
     padding-top: 94px;
     padding-bottom: 94px;
