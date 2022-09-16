@@ -33,20 +33,17 @@ a:hover {
     display: flex;
 }
 .menu-flex-container {
-    width: 1200px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+    align-items: baseline;
 }
 .header-logo {
-    font-family: "Raleway";
+    font-family: "Raleway" sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.174;
     color: #000;
     text-decoration: none;
-    padding: 24px 0 25px;
-    margin-bottom: 20px;
 }
 .header-list {
     list-style: none;
@@ -62,10 +59,9 @@ a:hover {
 }
 .nav-list {
     display: flex;
-    gap: 46px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 93px;
 }
 .navigation-list {
     display: flex;
@@ -77,7 +73,13 @@ a:hover {
     list-style: none;
 }
 .border-header {
-    border-bottom: 1px solid #f5f4fa;
+    display: flex;
+    flex-direction: row;
+    gap: 93;
+    padding: 24px 0 25px 0;
+    align-items: ceneter;
+    border-bottom: 1px solid #ececec;
+    height: 100%;
 }
 .header-list-item-link:hover,
 .header-list-item-link:focus {
@@ -583,8 +585,8 @@ footer > div {
 
 .container {
     width: 1200px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 .w-text {
