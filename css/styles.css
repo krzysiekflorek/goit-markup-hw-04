@@ -39,7 +39,7 @@ a:hover {
     padding: 25px 15px;
 }
 .header-logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.174;
@@ -52,7 +52,7 @@ a:hover {
 }
 .header-container {
     display: flex;
-    gap: 93;
+    gap: 93px;
     text-align: center;
 }
 .black-text {
@@ -170,7 +170,7 @@ a:hover {
     font-family: "Roboto";
     letter-spacing: 0.06em;
     color: #fff;
-    box-shadow: 0px 4 px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -332,7 +332,7 @@ a:hover {
     background: #fff;
     box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
         0px 2px 1px #00000033;
-    border-radius: 0px 0px 4px 4p;
+    border-radius: 0px 0px 4px 4px;
     display: flex;
     flex-direction: column;
 }
@@ -599,7 +599,7 @@ footer > div {
     background: #f5f4fa;
     border-radius: 4px;
     margin-bottom: 30px;
-    margin-top: 94;
+    margin-top: 94px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -619,9 +619,6 @@ footer > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition-property: var(#2196f3);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-client {
     width: 170px;
