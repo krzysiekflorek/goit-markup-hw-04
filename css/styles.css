@@ -35,7 +35,8 @@ a:hover {
 .menu-flex-container {
     flex-direction: row;
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    padding: 25px 15px;
 }
 .header-logo {
     font-family: "Raleway" sans-serif;
@@ -73,13 +74,7 @@ a:hover {
     list-style: none;
 }
 .border-header {
-    display: flex;
-    flex-direction: row;
-    gap: 93;
-    padding: 24px 0 25px 0;
-    align-items: ceneter;
     border-bottom: 1px solid #ececec;
-    height: 100%;
 }
 .header-list-item-link:hover,
 .header-list-item-link:focus {
@@ -383,7 +378,7 @@ a:hover {
 }
 .studio-section a {
     display: block;
-    border: 1px solid #212121;
+    border: 1px solid #e5e5e5;
     border-radius: 4px;
     padding: 17.71px 32px 14.25px;
 }
